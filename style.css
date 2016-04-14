@@ -1,0 +1,45 @@
+body {
+    margin:0; 
+    padding:0; 
+    background:#efefef;
+    text-align:center; 
+}
+#wrapper {
+    width:600px; 
+    margin:0 auto; 
+    background:#fff; 
+    text-align:left; 
+    border:1px solid #ccc;
+    border-top:none; 
+    padding:25px; x
+}
+#modal {
+    position:fixed; 
+    top:0; 
+    left:0; 
+    width:10000px; 
+    height:10000px; 
+    background: rgba(0,0,0,.5);
+    /*   background: black;
+    opacity: 0.8; */
+    text-align:center;
+    margin:0 auto;
+}
+
+#modal p {
+    text-align:right; 
+    color:#fff; 
+    margin-right:20px; 
+    font-size:12px; 
+    position: relative;
+}
+#content{
+    background: white;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    margin-left: 375px;
+    padding-top: 70px;
+    z-index: 2;
+    position: absolute;
+}
